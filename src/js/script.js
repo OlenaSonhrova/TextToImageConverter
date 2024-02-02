@@ -130,17 +130,17 @@ document.getElementById('myFile').onchange = function () {
 
 function changeFonImage() {
 	const preview = document.querySelector("#blockSize");
-	preview.style.background = "url('/src/image/backgraund1.png')";
+	preview.style.background = "url('src/image/backgraund1.png')";
 };
 
 function changeFonOneImage() {
 	const preview = document.querySelector("#blockSize");
-	preview.style.background = "url('/src/image/backgraund2.png')";
+	preview.style.background = "url('src/image/backgraund2.png')";
 };
 
 function changeFonThreeImage() {
 	const preview = document.querySelector("#blockSize");
-	preview.style.background = "url('/src/image/backgraund4.png')";
+	preview.style.background = "url('src/image/backgraund4.png')";
 };
 
 

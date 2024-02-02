@@ -10,7 +10,7 @@
 
 	<!-- include libraries(jQuery, bootstrap) -->
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet"> 
-	<link href="/src/css/summernote-lite-darkly-libre-col.min.css" rel="stylesheet">
+	<link href="src/css/summernote-lite-darkly-libre-col.min.css" rel="stylesheet">
 
 	<!-- <link href="/src/css/summernote-lite-plex-libre-col.min.css" rel="stylesheet"> -->
 		<!-- <link href="/src/css/summernote-lite-flatly-libre-col.min.css" rel="stylesheet"> -->
@@ -22,9 +22,9 @@
 	<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
 
-	<link href="/src/css/gpickr.min.css" rel="stylesheet" />
+	<link href="src/css/gpickr.min.css" rel="stylesheet" />
 
-	<link rel="stylesheet" type="text/css" href="/src/css/style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/style.css">
 
 	<title>TextToImageConverter</title>
 </head>
@@ -49,18 +49,18 @@
 		</div>
 		<div class="inputs__backgroundcolor">
 			<p class="classP">Background color:</p>
-			<img src="/src/image/ImageColor (1).png" onclick="changeFonOneColor()">
-			<img src="/src/image/ImageColor (2).png" onclick="changeFonTwoColor()">
-			<img src="/src/image/ImageColor.png" class="transparent" onclick="changeFonColor()">
+			<img src="src/image/ImageColor (1).png" onclick="changeFonOneColor()">
+			<img src="src/image/ImageColor (2).png" onclick="changeFonTwoColor()">
+			<img src="src/image/ImageColor.png" class="transparent" onclick="changeFonColor()">
 			<p class="custom__text classP" onclick="showShopColor()">Custom color</p>
 			<shop-color-picker></shop-color-picker>
 		</div>
 		<div class="inputs__backgroundgradient">
 			<p class="classP">Background gradient: </p>
-			<img src="/src/image/Image.png" onclick="changeFon()">
-			<img src="/src/image/Image (1).png" onclick="changeFonOne()">
-			<img src="/src/image/Image (2).png" onclick="changeFonTwo()">
-			<img src="/src/image/Image (3).png" onclick="changeFonThree()">
+			<img src="src/image/Image.png" onclick="changeFon()">
+			<img src="src/image/Image (1).png" onclick="changeFonOne()">
+			<img src="src/image/Image (2).png" onclick="changeFonTwo()">
+			<img src="src/image/Image (3).png" onclick="changeFonThree()">
 			<p class="custom__text classP" onclick="showGradient()">Custom gradient</p>
 			<div id="showgradient">
 				<div class="gpickr"></div>
@@ -69,9 +69,9 @@
 		</div>
 		<div class="inputs__backgroundimage">
 			<p class="classP">Background image:</p>
-			<img src="/src/image/backgraund1.png" onclick="changeFonImage()">
-			<img src="/src/image/backgraund2.png" onclick="changeFonOneImage()">
-			<img src="/src/image/backgraund4.png" onclick="changeFonThreeImage()">
+			<img src="src/image/backgraund1.png" onclick="changeFonImage()">
+			<img src="src/image/backgraund2.png" onclick="changeFonOneImage()">
+			<img src="src/image/backgraund4.png" onclick="changeFonThreeImage()">
 			<input type="file" id="myFile" class="custom__input"></input>
 		</div>
 	</div>
@@ -83,8 +83,8 @@
 			preview.style.background = shopColorPicker.value;
 		});
 	</script>
-	<script src="/src/js/gpickr.min.js"></script>
-	<script src="/src/js/script.js"></script>
+	<script src="src/js/gpickr.min.js"></script>
+	<script src="src/js/script.js"></script>
 </body>
 
 </html>
