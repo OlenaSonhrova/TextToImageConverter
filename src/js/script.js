@@ -14,9 +14,11 @@ gpickr.on('change', instance => {
 });
 
 
+
 $('#summernote').summernote({
 	height: 220,
 	focus: true,
+	fontSizes: ['2', '4', '6', '8', '9', '10', '11', '12', '14', '18', '24', '36', '48' , '64', '82', '100', '120', '150', '175', '200'],
 	callbacks: {
 		onChange: function () {
 			var markup = $('.click2edit').summernote('code');
@@ -39,7 +41,11 @@ $('#summernote').summernote({
 	],
 });
 
+// $('#summernote').summernote({
+	
+// });
 $('#summernote').summernote('justifyCenter');
+
 
 function showShopColor() {
 	const shopColorPicker = document.querySelector("shop-color-picker");
