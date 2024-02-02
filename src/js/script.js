@@ -23,9 +23,23 @@ $('#summernote').summernote({
 			$('.resultat').summernote('destroy');
 			document.getElementById('ruseltText').innerHTML = markup;
 		}
-	}
+	},
+	toolbar: [
+		['style', ['bold', 'italic', 'underline', 'clear']],
+		['font', ['strikethrough', 'superscript', 'subscript']],
+		['fontsize', ['fontsize']],
+		['fontname', ['fontname']],
+		['height', ['height']],
+		['color', ['color']],
+		['para', ['ul', 'ol', 'paragraph']],
+		['picture', ['picture']],
+		['table', ['table']],
+		['undo', ['undo']],
+		['redo', ['redo']],
+	],
 });
 
+$('#summernote').summernote('justifyCenter');
 
 function showShopColor() {
 	const shopColorPicker = document.querySelector("shop-color-picker");
