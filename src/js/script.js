@@ -19,6 +19,7 @@ $('#summernote').summernote({
 	height: 220,
 	focus: true,
 	fontSizes: ['2', '4', '6', '8', '9', '10', '11', '12', '14', '18', '24', '36', '48' , '64', '82', '100', '120', '150', '175', '200'],
+	lineHeights: ['0.1', '0.2', '0.3', '0.4', '0.5', '0.6', '0.8', '1.0', '1.2', '1.4', '1.5', '2.0', '3.0'],
 	callbacks: {
 		onChange: function () {
 			var markup = $('.click2edit').summernote('code');
