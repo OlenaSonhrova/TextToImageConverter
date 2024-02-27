@@ -138,7 +138,8 @@ function screenshot() {
 		allowTaint: true,
 		useCORS: true,
 		backgroundColor: null,
-		scrollY: -window.scrollY
+		scrollY: -window.scrollY,
+		scrollX: 0
 	}).then((canvas) => {
 		const imageData = canvas.toDataURL("image/png;");
 		const link = document.createElement("a");

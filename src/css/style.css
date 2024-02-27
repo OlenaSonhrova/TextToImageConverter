@@ -84,6 +84,10 @@ shop-color-picker {
 	padding-bottom: 50px;
 	background-color: rgba(4, 191, 123, 1);
 	margin-top: 40px;
+	/* position: fixed; 
+	top: 33%; 
+	width: 100%; 
+	z-index: 10; */
 }
 @media (max-width: 1400px) {
 	.inputs {
@@ -171,7 +175,7 @@ svg {
 	min-width: 210px;
 	border: none;
 	border-radius: 5px;
-	/* margin-bottom: 280px; */
+	/* margin-bottom: 430px; */
 }
 
 .button-27:hover {
@@ -181,7 +185,6 @@ svg {
 
 .footer {
 	text-align: center;
-	
 	p {
 		color: white;
 		font-size: 32px;
