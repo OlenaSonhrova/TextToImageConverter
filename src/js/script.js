@@ -74,6 +74,14 @@ var inputHeight = document.getElementById('height');
 var inputWidth = document.getElementById('width');
 var blockSize = document.getElementById('blockSize');
 
+function exsempleOne() {
+	blockSize.style.width = 80 + "px";
+	blockSize.style.height = 80 + "px";
+	const preview = document.querySelector("#blockSize");
+	preview.style.background = 'rgba(4, 140, 77, 1)';
+	var text = '<br /><p style="color: white; font-size: 16px; text-align: center; font-weight: bold; line-height: 0.5; margin-top: -6px;">PIANO</p><p style="color: white; font-size: 16px; text-align: center; line-height: 0.5;">SAD</p>';
+	$('#summernote').summernote('code', text);
+};
 
 inputHeight.addEventListener('input', function () {
 	blockSize.style.height = Number(inputHeight.value) + "px";
@@ -119,15 +127,6 @@ function changeFonTwo() {
 function changeFonThree() {
 	const preview = document.querySelector("#blockSize");
 	preview.style.background = 'linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)';
-};
-
-function exsempleOne() {
-	blockSize.style.width = 80 + "px";
-	blockSize.style.height = 80 + "px";
-	const preview = document.querySelector("#blockSize");
-	preview.style.background = 'rgba(4, 140, 77, 1)';
-	var text = '<br /><p style="color: white; font-size: 16px; text-align: center; font-weight: bold; line-height: 0.5; margin-top: -6px;">PIANO</p><p style="color: white; font-size: 16px; text-align: center; line-height: 0.5;">SAD</p>';
-	$('#summernote').summernote('code', text);
 };
 
 
