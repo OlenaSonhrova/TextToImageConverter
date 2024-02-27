@@ -50,13 +50,13 @@ shop-color-picker {
 	font-size: 18px;
 }
 
-.fixedImage {
-	/* position: fixed; 
+/* .fixedImage {
+	position: fixed; 
 	top: 0px; 
 	width: 100%; 
 	z-index: 10;
-	background-color: rgba(1, 38, 38, 1); */
-}
+	background-color: rgba(1, 38, 38, 1);
+} */
 
 .resultatCenter {
 	display: flex;
