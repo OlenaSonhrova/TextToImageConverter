@@ -18,7 +18,7 @@ p {
 .classP{
 	color: white;
 	text-align: end;
-	font-size: 32px;
+	font-size: 14px;
 }
 
 input {
@@ -50,6 +50,14 @@ shop-color-picker {
 	font-size: 18px;
 }
 
+.fixedImage {
+	position: fixed; 
+	top: 0px; 
+	width: 100%; 
+	z-index: 10;
+	background-color: rgba(1, 38, 38, 1);
+}
+
 .resultatCenter {
 	display: flex;
 	flex-direction: column;
@@ -61,18 +69,20 @@ shop-color-picker {
 	background: rgba(4, 140, 77, 1);
 	color: rgba(242, 242, 242, 1);
 	font-size: 25px;
-	height: 250px; 
-	width: 420px;
+	height: 125px; 
+	width: 210px;
 }
 
 .inputs {
 	padding-left: 20px;
-	padding-right: 120px;
+	padding-right: 20px;
 	display: flex;
+	justify-content: center;
 	gap: 20px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	background-color: rgba(4, 191, 123, 1);
+	margin-top: 250px;
 }
 @media (max-width: 1400px) {
 	.inputs {
@@ -94,8 +104,8 @@ shop-color-picker {
 
 svg {
 	position: relative;
-	margin-bottom: -16px;
-	margin-top: -146px;
+	margin-bottom: -6px;
+	margin-top: -440px;
 	z-index: -3;
 }
 
@@ -150,15 +160,14 @@ svg {
 .button-27 {
 	background-color: rgba(4, 191, 123, 1);
 	color: rgba(13, 13, 13, 1);
-	font-size: 36px;
+	font-size: 22px;
 	text-align: center;
 	text-decoration: none;
 	transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
 	will-change: transform;
-	min-width: 420px;
+	min-width: 210px;
 	border: none;
 	border-radius: 5px;
-	/* margin-bottom: 20px; */
 }
 
 .button-27:hover {
