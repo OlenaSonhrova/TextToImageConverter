@@ -189,3 +189,6 @@ h2 {
 	color: rgba(236, 240, 47, 1);
 }
 
+.note-editable {
+	background-color: rgb(206, 209, 209);
+}

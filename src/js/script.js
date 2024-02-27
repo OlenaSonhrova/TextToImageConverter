@@ -18,12 +18,12 @@ gpickr.on('change', instance => {
 $('#summernote').summernote({
 	height: 150,
 	focus: true,
-	fontSizes: ['2', '4', '6', '8', '9', '10', '11', '12', '14', '18', '24', '36', '48' , '64', '82', '100', '120', '150', '175', '200'],
+	fontSizes: ['2', '4', '6', '8', '9', '10', '11', '12', '14', '18', '24', '36', '48', '64', '82', '100', '120', '150', '175', '200'],
 	lineHeights: ['0.1', '0.2', '0.3', '0.4', '0.5', '0.6', '0.8', '1.0', '1.2', '1.4', '1.5', '2.0', '3.0'],
 	callbacks: {
 		onChange: function () {
 			var markup = $('.click2edit').summernote('code');
-			$('.resultat').summernote('destroy');
+			// $('.resultat').summernote('destroy');
 			document.getElementById('ruseltText').innerHTML = markup;
 		}
 	},
@@ -43,7 +43,7 @@ $('#summernote').summernote({
 });
 
 // $('#summernote').summernote({
-	
+
 // });
 $('#summernote').summernote('justifyCenter');
 
@@ -121,7 +121,14 @@ function changeFonThree() {
 	preview.style.background = 'linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)';
 };
 
-
+function exsempleOne() {
+	blockSize.style.width = 80 + "px";
+	blockSize.style.height = 80 + "px";
+	const preview = document.querySelector("#blockSize");
+	preview.style.background = 'rgba(4, 140, 77, 1)';
+	var text = '<br /><p style="color: white; font-size: 16px; text-align: center; font-weight: bold; line-height: 0.5; margin-top: -6px;">PIANO</p><p style="color: white; font-size: 16px; text-align: center; line-height: 0.5;">SAD</p>';
+	$('#summernote').summernote('code', text);
+};
 
 
 function screenshot() {
