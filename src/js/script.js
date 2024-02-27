@@ -77,6 +77,8 @@ var blockSize = document.getElementById('blockSize');
 function exsempleOne() {
 	blockSize.style.width = 80 + "px";
 	blockSize.style.height = 80 + "px";
+	inputHeight.value = 80;
+	inputWidth.value = 80;
 	const preview = document.querySelector("#blockSize");
 	preview.style.background = 'rgba(4, 140, 77, 1)';
 	var text = '<br /><p style="color: white; font-size: 16px; text-align: center; font-weight: bold; line-height: 0.5; margin-top: -6px;">PIANO</p><p style="color: white; font-size: 16px; text-align: center; line-height: 0.5;">SAD</p>';
