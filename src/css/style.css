@@ -1,4 +1,4 @@
-body,
+/* body,
 h1,
 h2,
 h3,
@@ -13,11 +13,25 @@ blockquote,
 dl,
 dd {
 	margin: 0;
-}
+} */
 
-img {
+/* img {
 	max-width: 100%;
 	display: block;
+} */
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+canvas {
+	background-color: #1A1A1A;
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 
 
@@ -112,7 +126,7 @@ shop-color-picker {
 	width: 100%; 
 	z-index: 10; */
 }
-@media (max-width: 1400px) {
+@media (max-width: 1150px) {
 	.inputs {
 		flex-direction: column;
 		margin-top: 40px;
@@ -222,3 +236,33 @@ h2 {
 .note-editable {
 	background-color: rgb(206, 209, 209);
 }
+
+.templates {
+	padding: 20px;
+	text-align: center;
+}
+
+.templates__text {
+	font-size: 20px;
+	color: rgba(4, 191, 123, 1);
+}
+
+.templates__image {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	/* border: 3px solid black; */
+	padding: 10px;
+}
+
+.templates__textorder {
+	font-size: 18px;
+	color: rgba(4, 191, 123, 1);
+}
+
+a {
+	color: white;
+}
+
+
+
