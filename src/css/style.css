@@ -210,9 +210,9 @@ svg {
 	transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
 	will-change: transform;
 	min-width: 210px;
+	max-width: 250px;
 	border: none;
 	border-radius: 5px;
-	/* margin-bottom: 430px; */
 }
 
 .button-27:hover {
@@ -239,30 +239,18 @@ h2 {
 
 .templates {
 	padding: 20px;
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* text-align: center; */
 }
 
-
-.templates__text:hover{
-	box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-	transform: translateY(-2px);
-}
-
-.exsemple:hover{	
-	box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-	transform: translateY(-2px);
-}
-
-.templates__text {
-	font-size: 20px;
-	color: rgba(4, 191, 123, 1);
-}
 
 .templates__image {
 	display: flex;
 	gap: 10px;
 	justify-content: center;
-	/* border: 3px solid black; */
 	padding: 10px;
 }
 
@@ -273,6 +261,11 @@ h2 {
 
 a {
 	color: white;
+}
+
+.exsemple:hover {
+	box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+	transform: translateY(-2px);
 }
 
 
